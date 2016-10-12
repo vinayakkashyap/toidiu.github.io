@@ -79,17 +79,17 @@ analytics:
 author:
   name             : "Apoorv Kothari"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "A Scala/Java/Android developer."
   location         : "NYC"
   email            :
-  uri              :
+  uri              : "http://toidiu.com"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/toidiu"
+  github           : "toidiu"
   google_plus      :
   keybase          :
   instagram        :
