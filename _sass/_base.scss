@@ -1,6 +1,15 @@
 /* ==========================================================================
    BASE ELEMENTS
    ========================================================================== */
+@font-face {
+    font-family: customFont;
+    /*src: url(fonts/GeomaThin.otf);*/
+    src: url(fonts/Comfortaa-Light.ttf);
+    /*src: url(fonts/PoiretOne-Regular.ttf);*/
+}
+* {
+    font-family: customFont;
+}
 
 html {
   /* sticky footer fix */
