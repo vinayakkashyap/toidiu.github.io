@@ -4,6 +4,7 @@ categories:
   - Code
 tags:
   - Android
+  - Scala
   - testing
   - memory
 ---
