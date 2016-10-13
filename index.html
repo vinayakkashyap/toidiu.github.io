@@ -6,7 +6,7 @@ header:
   overlay_color: "#cc3312"
   overlay_image: mm-home-page-feature.jpg
   caption:
-excerpt: 'Welcome to my blog'
+excerpt: 'A blog about Scala, FP, Java and tech.'
 feature_row:
   - image_path: mm-customizable-feature.png
     alt: "customizable"
@@ -30,7 +30,7 @@ feature_row:
 
 {% include base_path %}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3> -->
 
 {% for post in paginator.posts %}
   {% include archive-single.html %}
