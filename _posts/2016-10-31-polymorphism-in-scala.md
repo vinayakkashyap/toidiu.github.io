@@ -16,7 +16,7 @@ Scala has 3 types of Polymorphism that we will explore further below. These are 
   > while parametric and ad-hoc are evaluated at compile time.
   > 
 
-#Subtype Polymorphism
+# Subtype Polymorphism
 
 In Java we have subtype polymorphism and this is the one that most people learn about. This is when we define a super/parent class or interface(traits in Scala) and then extend this behavior in a child class. In the example below, we can think of Taco as a _sub-type_ of the type Food.
 
@@ -64,7 +64,7 @@ In this case we define the value for isEdible as true for all foods. However, th
 As a note, sub-type polymorphism is determined at Runtime. The type of the class is looked up at Runtime and then the appropriate method is called. For more information about this read the Wikipedia article on [Dynamic Dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch).
 
 
-#Parametric Polymorphism
+# Parametric Polymorphism
 
 In Java the name for parametric polymorphism is 'Generics'. The idea is to create data structures and write code that can be generic or type agnostic. A good example to demonstrate this is List. Below we construct a List for holding Int which **doesn't** use parametric polymorphism.
 
@@ -112,7 +112,7 @@ val foodList: List[Food] = new Cons(new Taco, new Cons(new Cereal, Nil)) //list 
 The advantages are obvious... we can define the List data structure once and utilize it with any type of object!
 
 
-#Ad-hoc Polymorphism
+# Ad-hoc Polymorphism
 
 Let me admit, this one was confusing for me. Therefore I will first explain the concept in plain english to get a general understanding. I will then demonstrate the concept with code and relate it back to the english definition.
 
@@ -139,7 +139,7 @@ Wikipedia defines [ad-hoc](https://en.wikipedia.org/wiki/Ad_hoc_polymorphism) po
 (4) The statement helps us to differentiate ad-hoc from parametric polymorphism. Remember from before, in parametric polymorphism the implementation of the function(List constructor) was the same regardless of the type passed in.
 
 
-#### Now some code:
+### Now some code:
 
 We first define a Texture trait and a function that prints the Texture. **Note: `printTexture` is our ad-hoc polymorphic function.** printTexture takes a type parameter `t: T` and a texture implementation of that type `o: Texture[T]`. 
 
@@ -209,7 +209,9 @@ printTexture(silk) //prints: soft
 printTexture(taco)(WetTacoTexture) //prints: soggy
 ```
 
-**Extra** As an extra bit let's look at another way we can write our ad-hoc polymorphism function. The Scala compiler provides syntactical sugar so that we can re-write the function as follows. So don't get confused when you see either representation.
+### Extra: 
+
+As an extra bit let's look at another way we can write our ad-hoc polymorphism function. The Scala compiler provides syntactical sugar so that we can re-write the function as follows. So don't get confused when you see either representation.
 
 ```scala
 //def printTexture[T](t: T)(implicit o: Texture[T]): Unit = {
@@ -223,7 +225,7 @@ def printTexture[A: Texture](t: A): Unit = {
 ```
 
 
-#Conclusion
+# Conclusion
 Well now you know the different types of polymorphism in Scala. As always, thanks for reading. If you find any mistakes please feel free to contact me at toidiu[aat]protonmail[dott]com
 
 
