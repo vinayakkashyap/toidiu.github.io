@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "toidiu-blog"
 title_separator          : "-"
 name                     : "Apoorv Kothari"
-description              : "An amazing website."
+description              : "My tech blog where I talk about Scala, Android and code."
 url                      : "https://toidiu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "toidiu/toidiu.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Apoorv Kothari"
   avatar           : "bio-photo.jpg"
-  bio              : "A Scala/Java/Android developer."
+  bio              : "A Scala/Java/Android developer. I find FP facinating so alot of this might be Scala stuff."
   location         : "NYC"
   email            :
   uri              : "http://toidiu.com"
