@@ -8,6 +8,7 @@
 # Site Settings
 locale                   : "en"
 title                    : "toidiu-blog"
+display_title            : "toidiu"
 title_separator          : "-"
 name                     : "Apoorv Kothari"
 description              : "My tech blog where I talk about Scala, Android and code."
