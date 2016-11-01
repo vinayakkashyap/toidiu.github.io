@@ -30,7 +30,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master" # "master", "gh-pages"
+  branch                 : "master"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -175,7 +175,7 @@ collections:
     permalink: /:collection/:path/
   portfolio:
     output: true
-permalink: /:collection/:path/
+    permalink: /:collection/:path/
 
 
 # Defaults
