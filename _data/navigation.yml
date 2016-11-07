@@ -1,8 +1,9 @@
 # main links links
 main:
-
+  - title: "about"
+    url: http://toidiu.com
 
 # main links links
 index:
-  - title: "toidiu-site"
+  - title: "about"
     url: http://toidiu.com
