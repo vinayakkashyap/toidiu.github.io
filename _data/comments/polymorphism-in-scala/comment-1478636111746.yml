@@ -1,0 +1,6 @@
+message: "Good post.\r\n\r\nI like the classification of polymophism in the Cardelli paper (http://lucacardelli.name/papers/onunderstanding.a4.pdf).\r\nSubtype and parametric polymorphism are kinds of universal polymorphism. Ad-hoc polymorphism can be divided in two categories: overloading and coercion.\r\nOverloading simply means operations with the same syntactic name but different parameters, where the selection of the operation occurs at runtime depending on the argument types.\r\nCoercion is the implicit transformation of one type to another to satisfy a method signature. I see it as implicit conversions in Scala, but they are just user-defined conversions, there can be also system-defined conversions.\r\n\r\nThe Type Class Pattern in Scala is interesting because it is implemented with a method with a single implicit parameter which is called inside the body. So in order to call the method you need to create an instance of the typeclass and define it as implicit (this is optional, to reduce boilerplate). So in Scala ad-hoc polymorphism can be achieved with overloading with the convention of the implicit parameter and the help of the implicits search system in Scala."
+name: Danny
+email: 067fea338b91f65107b88551af7f63b4
+url: ''
+hidden: ''
+date: '2016-11-08T20:15:11.129Z'
