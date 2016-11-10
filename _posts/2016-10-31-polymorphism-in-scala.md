@@ -2,6 +2,7 @@
 title: "Polymorphism in Scala"
 categories:
   - Code
+  - Polymorphism
 tags:
   - Scala
 ---
@@ -220,12 +221,21 @@ As an extra bit let's look at another way we can write our ad-hoc polymorphism f
 //  println(o.getTexture(t))
 //}
 
+
 def printTexture[A: Texture](t: A): Unit = {
   val o = implicitly[Texture[A]]
   println(o.getTexture(t))
 }
 ```
 
+## Addendum
+Thanks to **Wil Lee** for clarifying this and highlighting the power of Ad-hoc polymorphism.
+
+You might have noticed something cool about ad-hoc polymorphism; at no point did we modify the class `Food` and yet we were able to give it a `Texture`! Ad-hoc polymorphism allows us to extend the functionality of a piece of code, even if we don't have access to the source (library, legacy code).
+
+And to quote Wil, who explains it eloquently:
+
+> With Java interfaces / Scala traits, you can't claim that some type implements such an interface unless you have access to that type's source code and can modify it. With ad-hoc polymorphism, you don't need to be able change the type's source code. Using your post's example, `Taco` and `Silk` can come from some 3rd party library, and due to the implicit pattern you can still define a `Texture` for them.
 
 ## Conclusion
 Well now you know the different types of polymorphism in Scala. As always, thanks for reading. If you find any mistakes please feel free to contact me at toidiu[aat]protonmail[dott]com
