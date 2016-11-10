@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "toidiu-blog"
+title                    : "toidiu"
 display_title            : "toidiu"
 title_separator          : "-"
 name                     : "Apoorv Kothari"
@@ -73,7 +73,7 @@ social:
 analytics:
   provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-46037825-1"
+    tracking_id          : "UA-46037825-6"
 
 
 # Site Author
