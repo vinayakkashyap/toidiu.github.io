@@ -1,8 +1,8 @@
 ---
 title: "Polymorphism in Scala"
 categories:
-  - Code
   - Polymorphism
+  - Code
 tags:
   - Scala
 ---
