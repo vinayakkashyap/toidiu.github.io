@@ -1,9 +1,7 @@
 # main links links
 main:
-  - title: "about"
+  - title: "author"
     url: http://toidiu.com
 
-# main links links
-index:
-  - title: "about"
-    url: http://toidiu.com
+  - title: "blog"
+    url: /blog

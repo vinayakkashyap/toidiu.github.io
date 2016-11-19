@@ -1,39 +1,76 @@
 ---
-layout: archive-index
-author_profile: true
-
-header:
-  overlay_color: "#cc3312"
-  overlay_image: splash.jpg
-  caption:
-excerpt: 'A blog about Scala, FP, Java and tech.'
-feature_row:
-  - image_path: mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super Customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
-    btn_label: "Learn More"
-  - image_path: mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive Layouts"
-    excerpt: "Built on HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
-    btn_label: "Learn More"
-  - image_path: mm-free-feature.png
-    alt: "100% free"
-    title: "100% Free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it, whatever!"
-    url: "/docs/license/"
-    btn_label: "Learn More"
+author_profile: false
+layout: custom
 ---
+<body id="home">
 
-{% include base_path %}
+  <nav>
+      <a class="nav-link active" href="/">about</a>
+      <a class="nav-link" href="projects">projects</a>
+      <a class="nav-link" href="https://toidiu.github.io/">blog</a>
+  </nav>
 
-<!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3> -->
+  <div class="outer">
+      <div class="middle">
+          <div class="inner">
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+              <img src="images/bio-photo.jpg" class="author__avatar" alt="Apoorv Kothari">
 
-{% include paginator.html %}
+              <h1 id="name">Apoorv Kothari </h1>
+
+              <div id="title">
+                <div class="title-item">Software Engineer</div>
+                <div class="title-div"> | </div>
+                <div class="title-item">Entrepreneur</div>
+              </div>
+
+              <div id="description-wrapper">
+
+                <div class="description">
+                   I am a software engineer, with a focus on distributed and highly-available and scalable solutions. My technology of choice is <span class="red">Scala</span> for its terse but powerful syntax and functional paradigms. I have done alot of work on the <span class="red">Android</span> and appreciate the the mature and beautiful ecosystem it has become.
+                </div>
+
+                <div class="description">
+                  As a developer I have brought many products to market, with some apps getting many thousands of installs. Having been involved in diverse set of roles, (BE, mobile, FE, and embedded technology) I place value in maintainable code, scaling, security, and UX/design.
+                </div>
+
+                <br>
+                <div class="description">
+                  <span class="under">Currently working on:</span><br>
+                  I am co-founder at <a href="http://wilfredbot.com">wilfredbot</a>, a slack bot for managers to request anonymous feedback from your employees.
+                </div>
+
+                <br><br>
+                <div class="description">
+                  <span class="under">Things I grok:</span><br>
+                  scala, android, java, docker, aws<br>
+                  squash, biking, fencing, travel, cooking.
+                </div>
+
+              </div>
+
+              <div id="link-wrapper">
+                <a class="link-icon" href="http://www.speakerdeck.com/toidiu" target="_blank">
+                    <img src="images/speakerdeck.png" alt="talks"/>
+                    <span class="icon-description">talks</span >
+                </a>
+                <a class="link-icon" href="http://www.github.com/toidiu" target="_blank">
+                    <img src="images/github.png" alt="code"/>
+                    <span class="icon-description">github</span >
+                </a>
+                <a class="link-icon" href="https://www.linkedin.com/in/toidiu" target="_blank">
+                    <img src="images/linkedin.png" alt="code"/>
+                    <span class="icon-description">linkedin</span >
+                </a>
+                <a class="link-icon" href="mailto:toidiu@protonmail.com" target="_blank">
+                    <img src="images/email.png" alt="code"/>
+                    <span class="icon-description">e-mail</span >
+                </a>
+              </div>
+
+          </div>
+      </div>
+  </div>
+
+
+</body>
