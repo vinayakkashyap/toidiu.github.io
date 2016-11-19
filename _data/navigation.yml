@@ -1,7 +1,8 @@
 # main links links
 main:
-  - title: "author"
-    url: http://toidiu.com
-
+  - title: "toidiu"
+    url: /
+  - title: "projects"
+    url: /projects
   - title: "blog"
     url: /blog
