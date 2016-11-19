@@ -53,7 +53,8 @@ $(document).ready(function(){
   });
 
   // Follow menu drop down
-
+alert("asdf")
+console.log("df")
   $(".author__urls-wrapper button").on("click", function() {
     $(".author__urls").fadeToggle("fast", function() {});
     $(".author__urls-wrapper button").toggleClass("open");
