@@ -1,7 +1,7 @@
+
 {% include base_path %}
 
-
-<nav>
+<nav id="site-nav">
 
   {% for link in site.data.navigation.main %}
     {% if link.url contains 'http' %}
@@ -16,8 +16,5 @@
 
 </nav>
 
-<!-- <nav>
-    <a class="nav-link active" href="/">about</a>
-    <a class="nav-link" href="projects">projects</a>
-    <a class="nav-link" href="blog">blog</a>
-</nav> -->
+
+
