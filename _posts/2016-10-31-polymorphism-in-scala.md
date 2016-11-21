@@ -237,6 +237,6 @@ And to quote Wil, who explains it eloquently:
 > With Java interfaces / Scala traits, you can't claim that some type implements such an interface unless you have access to that type's source code and can modify it. With ad-hoc polymorphism, you don't need to be able change the type's source code. Using your post's example, `Taco` and `Silk` can come from some 3rd party library, and due to the implicit pattern you can still define a `Texture` for them.
 
 ## Conclusion
-Well now you know the different types of polymorphism in Scala. As always, thanks for reading. If you find any mistakes please feel free to contact me at toidiu[aat]protonmail[dott]com
+Well now you know the different types of polymorphism in Scala. As always, thanks for reading. If you find any mistakes please feel free to contact me at apoorv[aat]toidiu[dott]com
 
 
