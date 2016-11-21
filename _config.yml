@@ -82,8 +82,8 @@ author:
   avatar           : "bio-photo.jpg"
   bio              : "A Scala/Java/Android developer. I find FP facinating so alot of this might be Scala stuff."
   location         : "NYC"
-  email            :
-  uri              : "http://toidiu.com"
+  email            : 
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
@@ -95,7 +95,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : # https://www.linkedin.com/in/toidiu 
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)

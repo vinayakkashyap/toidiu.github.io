@@ -1,0 +1,209 @@
+/*------------------------GENERAL---------------------*/
+@font-face {
+    font-family: customFont;
+    /*src: url(fonts/GeomaThin.otf);*/
+    src: url(fonts/Comfortaa-Light.ttf);
+    /*src: url(fonts/PoiretOne-Regular.ttf);*/
+}
+body {
+    font: 14px customFont;
+    color: #282D28;
+    background-color: #f7a52a;
+    margin: 0;
+}
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.inner {
+    padding: 20px 0;
+    margin: 50px auto;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+a.links{
+    margin-top: 20px;
+    margin: 10px;
+    font-size: 18px;
+    color: #FFF;
+}
+a:hover
+{
+    color: #000 !important;
+}
+body, nav, .outer, footer{
+  min-width: 320px;
+}
+.under{
+  text-decoration: underline;
+}
+.red{
+  color: #E91414;
+}
+.white{
+  color: #ffffff;
+}
+.center-text{
+  text-align: center;
+}
+/*------------------------END GENERAL---------------------*/
+footer{
+  text-align: center;
+  position: fixed;
+  background: #d5912c;
+  /*background: rgba(123, 123, 123, 0.72);*/
+  /*background: #818E84;*/
+  bottom: 0;
+  padding: 5px 0;
+  margin: auto;
+  width: 100%;
+}
+footer .link-icon img {
+    width: 25px;
+    height: 25px;
+}
+
+/*------------------------HOME---------------------*/
+#home nav{
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+#name{
+    color: #fff;
+    font-size: 38px;
+    padding: 0 5%;
+}
+#title{
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 10%;
+}
+.title-item{
+  display: inline-block;
+}
+.title-div{
+  display: inline-block;
+}
+.description{
+  /*color: #fff;*/
+  padding: 8px 20%;
+}
+.link-icon img {
+    width: 40px;
+    height: 40px;
+    margin: 5px 20px;
+}
+#contact-div{
+    margin-top: 50px;
+}
+.icon-description{
+    display: none;
+}
+.link-icon{
+    display: inline-block;
+}
+#link-wrapper{
+  margin-top: 40px;
+}
+.author__avatar{
+  padding: 5px;
+  border: 1px solid #f2f3f3;
+  max-width: 110px;
+  border-radius: 50%;
+  margin-top: 45px;
+}
+/*------------------------END HOME---------------------*/
+
+
+/*------------------------PROJECT---------------------*/
+#projects a{
+    display: inline-flex;
+}
+#projects .item img{
+    margin: 0px;
+}
+#projects .item-wrapper{
+    display: inline-table;
+    margin: 15px;
+    max-width: 220px;
+    text-align: left;
+}
+#projects .item{
+    display: inline-block;
+    margin: 15px;
+}
+#projects .item img{
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+#projects .item .title{
+    font-size: 20px;
+    display: block;
+}
+#projects #item-container{
+  margin: 40px auto 80px auto;
+  padding: 0 10px;
+  text-align: center;
+}
+.section-divider{
+  margin-top: 80px;
+}
+/*------------------------END PROJECT---------------------*/
+
+
+
+/*------------------------CONTACT---------------------*/
+#contact nav{
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+.email-img{
+  width: 40px;
+  height: 40px;
+  margin: 5px 20px;
+}
+/*------------------------END CONTACT---------------------*/
+
+
+
+
+
+
+/*------------------------applies to DESKTOP AFTER------------*/
+/*------------------------applies to DESKTOP AFTER------------*/
+@media screen and (min-width: 400px) {
+  #name{
+  }
+  /*#title{
+      font-size: 28px;
+  }*/
+}
+
+
+/*------------------------applies to DESKTOP AFTER------------*/
+/*------------------------applies to DESKTOP AFTER------------*/
+@media screen and (min-width: 600px) {
+  #projects #item-container{
+    text-align: left;
+  }
+  .link-icon img {
+      /*width: 50px;*/
+      /*height: 50px;*/
+  }
+  nav .nav-link{
+      font-size: 20px;
+  }
+}
