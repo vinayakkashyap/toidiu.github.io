@@ -127,6 +127,15 @@ footer .link-icon img {
 
 
 /*------------------------PROJECT---------------------*/
+body#projects {
+    background-color: #2299e4;
+}
+#projects nav{
+  background-color: #197fc2;
+}
+#projects footer{
+background: #1981c5;
+}
 #projects a{
     display: inline-flex;
 }
