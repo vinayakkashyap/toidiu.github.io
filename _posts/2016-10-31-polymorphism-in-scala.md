@@ -6,14 +6,18 @@ tags:
   - Scala
 ---
 
-I have found that I learn much better when I have to write about it and explain it to others. This is an exercise for my understanding but hopefully it will also help others.
+I have found that I learn much better when I have to write about it and explain it to others. This is an exercise for my understanding but hopefully it will also help others. The accompanying code for this post can be found on [github](https://github.com/toidiu/ScalaPolymorphism).
 
 Polymorphism is a word that means 'having  different forms'. In terms of OOP, this mean that a class can have many different forms and behave in different manners depending on the context.
 
-Scala has 3 types of Polymorphism that we will explore further below. These are called `subtype`, `parametric` and `ad-hoc`. The accompanying code can be found on [github](https://github.com/toidiu/ScalaPolymorphism).
+Scala has 3 types of Polymorphism that we will explore further below.
 
-  > As an extra bit of info, the compiler evaluates subtype at Runtime
-  > while parametric and ad-hoc are evaluated at compile time.
+* Subtype Polymorphism
+* Parametric Polymorphism
+* Ad-hoc Polymorphism
+
+> As an extra bit of info, the compiler evaluates subtype at Runtime
+> while parametric and ad-hoc are evaluated at compile time.
 
 
 ### Subtype Polymorphism
@@ -130,22 +134,22 @@ Wikipedia defines [ad-hoc](https://en.wikipedia.org/wiki/Ad_hoc_polymorphism) po
   > thus apply a single abstract implementation to any number of 
   > types in a transparent way.
 
-(1) An ad-hoc polymorphic function can take different types of arguments. ex. Int or String.
+1. An ad-hoc polymorphic function can take different types of arguments. ex. Int or String.
 
-(2) The implementation of the ad-hoc polymorphic function function can vary.
+2. The implementation of the ad-hoc polymorphic function function can vary.
 
-(3) Combining points 1 and 2, the implementation of the function will vary depending on the type of the argument passed to the function.
+3. Combining points 1 and 2, the implementation of the function will vary depending on the type of the argument passed to the function.
 
-**Thats really it! Another way to think about this is that we are doing function overloading and the function does different things based on the type we pass it.**
+    **Thats really it! Another way to think about this is that we are doing function overloading and the function does different things based on the type we pass it.**
 
-(4) The statement helps us to differentiate ad-hoc from parametric polymorphism. Remember from before, in parametric polymorphism the implementation of the function(List constructor) was the same regardless of the type passed in.
+4. The statement helps us to differentiate ad-hoc from parametric polymorphism. Remember from before, in parametric polymorphism the implementation of the function(List constructor) was the same regardless of the type passed in.
 
 
-#### Now some code:
+#### Some code:
 
 We first define a Texture trait and a function that prints the Texture. **Note: `printTexture` is our ad-hoc polymorphic function.** printTexture takes a type parameter `t: T` and a texture implementation of that type `o: Texture[T]`. 
 
-*Ahh ha.. from note bullet (1), the function takes different types as arguments.*
+**Ahh ha.. from bullet (1), the function takes different types as arguments.**
 
   > Ignore the `implicit` keyword for now. I will how this is later used
   > to automatically pull in the correct implementation of Texture.
@@ -164,7 +168,7 @@ Next we need to define the different implementation depending on the the class t
 
 We also define a new class called `Silk` which can also have a texture and give it a texture implementation `SilkTexture`.
 
-*Ahh ha.. from note bullet (2), we have varying definitions based on the types.*
+**Ahh ha.. from bullet (2), we have varying definitions based on the types.**
 
   > Again notice but ignore the `implicit` keyword. We will make the 
   > connection later.
@@ -197,7 +201,7 @@ Now you might be asking how did `printTexture` get the appropriate implementatio
   > Scala compiler get mad. ex. We don't declare WetTacoTexture as
   > an implicit.
 
-*Ahh ha.. we demonstrate bullet (3), the function implementation varies depending on the type!!*
+**Ahh ha.. we demonstrate bullet (3), the function implementation varies depending on the type!!**
 
 ```scala
 import Texture._
@@ -211,7 +215,7 @@ printTexture(silk) //prints: soft
 printTexture(taco)(WetTacoTexture) //prints: soggy
 ```
 
-#### Extra: 
+#### Different Syntax:
 
 As an extra bit let's look at another way we can write our ad-hoc polymorphism function. The Scala compiler provides syntactical sugar so that we can re-write the function as follows. So don't get confused when you see either representation.
 
