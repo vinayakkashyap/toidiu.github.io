@@ -14,9 +14,9 @@ Scala has 3 types of Polymorphism that we will explore further below. These are 
 
   > As an extra bit of info, the compiler evaluates subtype at Runtime
   > while parametric and ad-hoc are evaluated at compile time.
-  > 
 
-## Subtype Polymorphism
+
+### Subtype Polymorphism
 
 In Java we have subtype polymorphism and this is the one that most people learn about. This is when we define a super/parent class or interface(traits in Scala) and then extend this behavior in a child class. In the example below, we can think of Taco as a _sub-type_ of the type Food.
 
@@ -64,7 +64,7 @@ In this case we define the value for isEdible as true for all foods. However, th
 As a note, sub-type polymorphism is determined at Runtime. The type of the class is looked up at Runtime and then the appropriate method is called. For more information about this read the Wikipedia article on [Dynamic Dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch).
 
 
-## Parametric Polymorphism
+### Parametric Polymorphism
 
 In Java the name for parametric polymorphism is 'Generics'. The idea is to create data structures and write code that can be generic or type agnostic. A good example to demonstrate this is List. Below we construct a List for holding Int which **doesn't** use parametric polymorphism.
 
@@ -112,7 +112,7 @@ val foodList: List[Food] = new Cons(new Taco, new Cons(new Cereal, Nil)) //list 
 The advantages are obvious... we can define the List data structure once and utilize it with any type of object!
 
 
-## Ad-hoc Polymorphism
+### Ad-hoc Polymorphism
 
 Let me admit, this one was confusing for me. Therefore I will first explain the concept in plain english to get a general understanding. I will then demonstrate the concept with code and relate it back to the english definition.
 
