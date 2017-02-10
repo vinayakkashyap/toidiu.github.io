@@ -80,10 +80,10 @@ analytics:
 author:
   name             : "Apoorv Kothari"
   avatar           : "bio-photo.jpg"
-  bio              : "A Scala/Java/Android developer. I find FP facinating so alot of this might be Scala stuff."
+  bio              : "A Scala/Android developer. I find FP facinating so alot of this might be Scala stuff."
   location         : "NYC"
-  email            : 
-  uri              : 
+  email            :
+  uri              :
   bitbucket        :
   codepen          :
   dribbble         :
