@@ -178,6 +178,7 @@ When deciding between different offers, simply list your priorities and choose t
 
 
 ### Rejection
+
 ###### Company / Candidate
 It is vital to communicate the decision in a timely and respectful manner. In my opinion, ignoring to do this step is absolutely unacceptable, rude, and indicates bad character/culture of the candidate/company. As both parties should be aware, a lot of time and money are spent and to simply ignore or lead the other party on is bad practice.
 
