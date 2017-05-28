@@ -2,9 +2,9 @@
 title: "A practical guide to breakOut"
 categories:
   - Code
-  - collection library
-tags:
   - Scala
+tags:
+  - collections library
 ---
 
 In this post I will be reviewing `scala.collection.breakOut` from an application developer's perspective rather than a functional programming enthusiast. I will discuss why one would want to use it and how to recognize when it is applicable. The full code sample can be found at github.
