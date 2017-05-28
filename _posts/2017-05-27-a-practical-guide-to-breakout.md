@@ -7,7 +7,7 @@ tags:
   - collections library
 ---
 
-In this post I will be reviewing `scala.collection.breakOut` from an application developer's perspective rather than a functional programming enthusiast. I will discuss why one would want to use it and how to recognize when it is applicable. The full code sample can be found at github.
+In this post I will be reviewing `scala.collection.breakOut` from an application developer's perspective rather than a functional programming enthusiast. I will discuss why one would want to use it and how to recognize when it is applicable. The full code sample can be found at [github](https://github.com/toidiu/Scala-breakOut).
 
 When I first saw `breakOut`, it seemed like an extremely intimidating concept and a little like black magic. It certainly didn't help that I found explanations of `breakOut` intermingled with the equally intimidating concept of `CanBuildFrom`. This is a shame because, with proper application, `breakOut` can make your code run faster. Let's consider the following code sample:
 
