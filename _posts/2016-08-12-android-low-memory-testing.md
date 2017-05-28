@@ -2,8 +2,8 @@
 title: "Android low memory testing"
 categories:
   - Code
-tags:
   - Android
+tags:
   - testing
   - memory
 ---

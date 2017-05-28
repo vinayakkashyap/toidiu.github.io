@@ -1,10 +1,8 @@
 ---
 title: "Good and Bad Company Indicators"
 categories:
-  - Interview
-  - Culture
+  - interview
 tags:
-  - HR
 ---
 
 A list of good and bad company indicators compiled mostly from personal experience.

@@ -2,8 +2,8 @@
 title: "Learning Scala"
 categories:
   - Code
-tags:
   - Scala
+tags:
   - Functional Programming
 ---
 

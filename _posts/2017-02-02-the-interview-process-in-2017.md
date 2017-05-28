@@ -1,9 +1,9 @@
 ---
 title: "The Technical Interview in 2017"
 categories:
-  - Technical Interview
+  - interview
 tags:
-  - HR
+  - Technical Interview
 ---
 
 At the beginning of 2017, I was interviewing for junior back-end Scala positions at various types of companies including consultancy shops, startups and mature companies. The overall experience was pleasant and even fun, but there were also a lot more mishaps than I expected and a few that left a bad taste. However, I don't think the bad experiences were intentional but rather rooted in a lack of perspective/understanding that the company and candidate have about the other.

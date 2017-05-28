@@ -4,6 +4,7 @@ categories:
   - Code
 tags:
   - Scala
+  - polymorphism
 ---
 
 I have found that I learn much better when I have to write about it and explain it to others. This is an exercise for my understanding but hopefully it will also help others. The accompanying code for this post can be found on [github](https://github.com/toidiu/ScalaPolymorphism).
