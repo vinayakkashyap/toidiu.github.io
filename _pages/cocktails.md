@@ -62,6 +62,9 @@ https://www.diffordsguide.com/cocktails/recipe/765/floral-martini
 
 https://www.absolutdrinks.com/en/drinks/gin-tonic/
 
+#### Gin & Ginger (Gin Mule)
+https://www.thelittleepicurean.com/2014/10/gin-and-ginger-cocktail.html
+
                     -o-o-o-o Rum o-o-o-o-
 
 #### Mojito
