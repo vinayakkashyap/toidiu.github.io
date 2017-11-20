@@ -65,6 +65,26 @@ https://www.absolutdrinks.com/en/drinks/gin-tonic/
 #### Gin & Ginger (Gin Mule)
 https://www.thelittleepicurean.com/2014/10/gin-and-ginger-cocktail.html
 
+#### Last Word (American Psycho)
+
+  - 1 Part Gin
+  - 1 Part Green Chartreuse
+  - 1 Part Maraschino Luxardo
+  - 1 Part Lime
+
+  How to mix: Shake all ingredients with ice then strain into a chilled cocktail glass. Garnish with fresh thin cut lime wheel or dehydrated one, which will float at top.
+
+#### Aviator
+
+  - 60 ml London Dry Gin
+  - 15 ml lemon juice
+  - 10 ml Maraschino Luxardo
+  - 5 ml Crème de Violette
+
+  How to mix: Shake the first three ingredients with ice then strain into a chilled cocktail glass. Use a bar spoon to float the Crème de Violette (which will sink) into the glass. Garnish with lemon peel and Luxardo Original Maraschino cherry served on a cocktail pick.
+
+http://www.luxardo.it/products/liqueurs/classic-liqueurs/maraschino.html
+
                     -o-o-o-o Rum o-o-o-o-
 
 #### Mojito
