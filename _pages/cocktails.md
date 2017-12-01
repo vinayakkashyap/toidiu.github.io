@@ -48,6 +48,14 @@ layout: custom
 
     How to mix: Fill a rocks glass with ice cubes. Add all ingredients. Stir. Garnish with orange.
 
+#### Bee's Knees
+
+   - 2 Parts Gin
+   - ¾ Part Lime Juice
+   - ¾ Part Honey
+
+    How to mix: Fill a shaker with ice cubes. Add all ingredients. Shake and strain into a chilled cocktail glass.
+
 #### Tom Collins
 
   - 1 Part Lemon Juice
