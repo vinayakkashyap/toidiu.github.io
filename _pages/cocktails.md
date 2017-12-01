@@ -51,7 +51,7 @@ layout: custom
 #### Bee's Knees
 
    - 2 Parts Gin
-   - ¾ Part Lime Juice
+   - ¾ Part Lemon Juice
    - ¾ Part Honey
 
     How to mix: Fill a shaker with ice cubes. Add all ingredients. Shake and strain into a chilled cocktail glass.
