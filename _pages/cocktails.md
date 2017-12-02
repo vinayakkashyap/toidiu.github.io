@@ -13,7 +13,7 @@ layout: custom
   - ½ Part Triple Sec
   - ½ Part Lemon Juice
   - 1 Dash Bitters
-  - 1 ¼ Simpe Syrup (optional)
+  - 1 ¼ Simple Syrup (optional)
 
     How to mix: Fill a shaker with ice cubes. Add all ingredients. Shake and strain into a chilled cocktail glass.
 
